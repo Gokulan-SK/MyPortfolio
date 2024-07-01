@@ -269,9 +269,9 @@ section {
 }
 
 .profile-icon {
-    width: 40px;
-    /* Set a consistent width for all icons */
-    height: auto;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
     /* Maintain aspect ratio */
     transition: transform 0.2s ease-in-out;
     /* Optional: Add hover effect */
